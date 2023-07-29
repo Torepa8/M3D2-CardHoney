@@ -8,6 +8,10 @@ header{
     border-radius: 50px;
 }
 
+.flex{
+    display: flex;
+}
+
 body{
     margin: 0;
     min-height: 100vh;
@@ -73,11 +77,11 @@ nav{
 }
 
 .article-img{
-    flex-basis: 300px;
+    flex-basis: 450px;
 }
 
 .div-img{
-    flex-basis: 450px;
+    flex-basis: 500px;
 }
 
 button{
@@ -90,15 +94,18 @@ button{
 }
 
 .art{
-    flex-basis: 100%;
+    /* flex-basis: 100%; */
     display: flex;
     flex-wrap: wrap-reverse;
+    justify-content: flex-start;
     padding: 20px;
     background-color: antiquewhite;
 }
 
 .title-art{
-    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 450px;
     padding: 20px;
     align-items: flex-start;
 }
